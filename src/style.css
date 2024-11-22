@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 600px;
+  width: 425px;
+  align-items: center;
+  border-radius: 2ch;
+  box-shadow: 15px 15px 15px;
+}
+
+.top-suit {
+  font-size: 10ch;
+}
+
+.value {
+  font-size: 20ch;
+}
+
+.bottom-suit {
+  flex-direction: bottom;
+  font-size: 10ch;
+  display: block;
+  transform: rotate(180deg);
+}
+
+.button {
+  size: 20ch;
+  box-shadow: 5px 5px 5px;
+}

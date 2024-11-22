@@ -9,6 +9,8 @@ window.onload = function() {
   let suit = ["♦", "♥", "♣", "♠"];
   let value = ["2", "3", "4", "5", "6", "7", "8", "10", "J", "Q", "K", "A"];
 
+  // function generateCard() {}
+
   let chosenSuit = getRandomElement(suit);
   let chosenValue = getRandomElement(value);
 
@@ -18,7 +20,7 @@ window.onload = function() {
   let bottomSuitElement = document.querySelector(".bottom-suit");
   let valueElement = document.querySelector(".value");
 
-  if (chosenSuit == "♥" || chosenSuit == "♦") {
+  if (chosenSuit === "♥" || chosenSuit === "♦") {
     topSuitElement.style.color = "red";
     bottomSuitElement.style.color = "red";
   }
